@@ -1,0 +1,11 @@
+### get all notifications
+GET http://localhost:8080/notification
+
+### create a notification
+POST http://localhost:8080/notification
+Content-Type: application/json
+
+{
+  "message": "hola",
+  "severity": "success"
+}

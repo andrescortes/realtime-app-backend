@@ -1,0 +1,18 @@
+GET http://localhost:8080/notification
+
+<> 2022-10-17T090557.200.json
+
+###
+
+POST http://localhost:8080/notification
+Content-Type: application/json
+
+{
+  "message": "hola",
+  "severity": "success"
+}
+
+<> 2022-10-17T090524.201.json
+
+###
+

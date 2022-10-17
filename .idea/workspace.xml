@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="423cf291-473f-4e44-a844-c890947549d7" name="Changes" comment="" />
+    <list default="true" id="423cf291-473f-4e44-a844-c890947549d7" name="Changes" comment="project base init">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/realtime-app-backend.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/realtime-app-backend.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,26 +37,52 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GGHKeWBaoalFzpyvUEkuIx7tuN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "e808384fc7dc597d44dd3269eec7bb8f"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.RealtimeAppBackendApplication">
+    <configuration name="requests | create a notification" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requests.http" requestIdentifier="create a notification" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="requests | get all notifications" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/requests.http" requestIdentifier="get all notifications" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="RealtimeAppBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="realtime-app-backend.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dev.realtimeappbackend.RealtimeAppBackendApplication" />
@@ -59,6 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.requests | get all notifications" />
+        <item itemvalue="HTTP Request.requests | create a notification" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,8 +107,18 @@
       <updated>1666007938867</updated>
       <workItem from="1666007941554" duration="8000" />
       <workItem from="1666007956653" duration="142000" />
-      <workItem from="1666008242197" duration="107000" />
+      <workItem from="1666008242197" duration="4319000" />
+      <workItem from="1666013444793" duration="244000" />
+      <workItem from="1666013696635" duration="1981000" />
     </task>
+    <task id="LOCAL-00001" summary="project base init">
+      <created>1666008376211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666008376211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project base init" />
+    <option name="LAST_COMMIT_MESSAGE" value="project base init" />
   </component>
 </project>
